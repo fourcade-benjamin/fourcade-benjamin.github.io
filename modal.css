@@ -349,7 +349,7 @@ input[data-error]::after {
 .btn-signup {
 	background: #fe142f;
 	display: block;
-	margin: 10px auto 0 auto;
+	margin: 10px auto 5% auto;
 	border-radius: 7px;
 	font-size: 1rem;
 	padding: 12px 82px;
@@ -436,6 +436,7 @@ input[data-error]::after {
 .text-label {
 	font-weight: normal;
 	font-size: 0.6em;
+	padding-bottom: 0;
 }
 
 .hero-section {
@@ -678,7 +679,7 @@ footer {
 
 	.modal-body {
 		margin-top: 10px;
-		padding-bottom: 5%;
+		padding-bottom: 10%;
 	}
 
 	label {
@@ -731,6 +732,7 @@ footer {
 .form-control.error p {
 	visibility: visible;
 	color: red;
+	padding-bottom: 0;
 }
 
 .form-control.error input {
